@@ -27,4 +27,4 @@ As responsible users and handlers of personal information on the part of our cli
 * **DO** inform your manager of any request which goes outside the requirements outlined here
 * **DO** share passwords and encrypted data on different channels 
 
-[pii-wiki: http://en.wikipedia.org/wiki/Personally_identifiable_information]
+[pii-wiki]: http://en.wikipedia.org/wiki/Personally_identifiable_information
