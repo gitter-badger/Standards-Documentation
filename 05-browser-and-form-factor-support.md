@@ -1,5 +1,69 @@
 # Browser and form factor support
 
+
+## Introduction
+
+The modern browser landscape is quite complex and rapidly changing all the time.  In all our projects, FULLSIX try to strike the right balance between delivering features efficiently by using modern technologies, whilst trying to ensure the maximum reach for the site through compatibility with legacy browsers, minor and edge case browsers and deprecated platforms.
+
+Website code is interpreted at runtime by browser clients, and the various implementations of rendering engines in different browser clients interpret code differently.  It is the aim of all projects to implement features in such a way to provide a consistent experience across all browsers, however there will always be variation in the way browsers interpret and render code and content, and in the level of support for features of the code.  There is more information on this in our coding standards documentation and we refer to [http://www.caniuse.com/](http://www.caniuse.com/) for a guide to compatibility of specific features within web technology.  
+
+Since there is a limit to what we can naturally support completely without branching code for specific platforms (to be avoided wherever possible), we take a graded approach to browser support with the following levels:
+
++ Grade A - Fully supported, both functionally and visually.  These are normally the major or latest versions of a browser in common circulation.  This information is taken from global and local market statistics as well as previous traffic reporting for incumbent sites where relevant.  We would expect these browsers to appear both functionally and visually as per all proposed designs, wireframes expected functionality.  There may be certain variations in the way that even Grade A browsers render some elements, particularly in the way rich fonts appear.  The aim is for consistency and robustness.
+
++ Grade B - As much functional support as possible, with some degradation of visual elements and performance.  Grade B browsers are expected to make all functions of the site (i.e. navigation, links, scripts, forms, interactions) available – the user should not be constricted from interacting with the site.  Where a function set is not supported, it should be entirely removed from display in Grade B browsers.  Visually, the site should not appear ‘broken’ but some degradation in the visual fidelity is to be expected (e.g. rounded corners appearing square, minor layout or spacing issues etc.).    Any degradation in visual or functional fidelity should be handled gracefully without impairment to the end users enjoyment of the site.
+
++ Grade C - No direct support for site function provided. We do not QA on Grade C browsers.  Sites may well work to a significant level on these platforms but we do not test on them and we do not, except if explicitly required, guarantee functional or visual compatibility on them.  This normally includes deprecated browser versions, niche/edge cases (i.e. games console browsers) or instances of a web rendering engine in non-browser applications.
+A matrix is given below on current browser grading. If any exceptions are required, please inform FullSIX. If internal IT policies cannot support a grade A browser, please also flag this so we can identify in detail elements of the site build that likely to be degraded.
+
+### Desktop Browser Grade A
+
+Platform  Name  Version
+OS X, Vista, Win7, Win8 Chrome  Latest*
+OS X, Vista, Win7, Win8 Firefox Latest*
+OSX Safari  7+
+Win7, Win8  IE  9+
+
+
+*Both Firefox and Chrome implement a rapid release cycle with background updating.  We therefore work to the current stable build.
+
+
+### Desktop Browser Grade B
+
+Platform  Name  Version
+WinXP IE  8
+
+
+### Desktop Browser Grade C
+
+Platform  Name  Version
+WinXP IE  <8
+OS X, WinXP, Vista, Win7, Win8  Opera All versions
+Alternate platforms not covered above (e.g. games consoles, linux, non-browser based implementations of a web rendering engine) Various Various
+
+
+### Mobile Browser Grading
+
+FULLSIX only support grade A browsers on mobile. All others will not be included within test scope unless otherwise agreed. This also includes native application in-built webviews (i.e. Twitter clients).
+
+Platform  Name  Version
+iOS6+ Mobile Safari 6+
+IOS6+ Chrome  Current vers only
+Android 4.1 Chrome* Current vers only
+
+*please note, as of Jellybean, Chrome is the default browser on Android devices and we will test this as our target Android platform.  Android browser is not supported directly as a result, however since all versions of the browser from 4.0 (Ice Cream Sandwich) onward are built on the same version of Webkit, we don’t anticipate there being much variance in the rendering of pages.  We don’t, however, test thoroughly on ICS since the platform is in steep decline.  
+
+
+
+### Mobile test devices
+
+FULLSIX test on the following devices:
+• iOS6, iOS7 (iPad 3, iPad Mini, iPhone 5)
+• Android 4.0.3, 4.2.1, 4.4.1 (Samsung Galaxy S4, Samsung Galaxy S2, Nexus 7)
+Additional devices can be targeted on request. Devices outside this configuration may incur extra charges. 
+
+
+
 ## Introduction
 
 This document outlines browser and form factor support for Sainsbury's Homemade.
