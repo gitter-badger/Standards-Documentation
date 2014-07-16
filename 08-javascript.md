@@ -356,7 +356,7 @@ separation of concerns between views and logic.
 
 ## AJAX
 
-AJAX will be used on Sainsbury's Homemade for two purposes:
+AJAX will be used on normal builds for two purposes:
 
 1. User experience.
 2. To improve performance of the web journey by reducing load on the
