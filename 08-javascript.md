@@ -5,7 +5,7 @@
 ### Introduction
 
 This document defines policies for usage and authoring of JavaScript for
-Sainsbury's Homemade.
+FullSIX UK projects.
 
 It is important to note that JavaScript should be used to _enhance the user's
 experience_ by adding engaging and interactive functionality. It is acceptable
