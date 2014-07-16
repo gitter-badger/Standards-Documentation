@@ -337,7 +337,7 @@ JavaScript. For example:
 
 ## Modular JavaScript with Browserify
 
-[Browserify][browserify] will be used on this project to organise JavaScript
+[Browserify][browserify] will be used on projects to organise JavaScript
 into separate modules which can be loaded with `require` statements, in the
 style of Node.js, but in the browser.
 
@@ -345,7 +345,8 @@ style of Node.js, but in the browser.
 
 ## JavaScript templates with Mustache.js
 
-We will use [Mustache.js][mustache-js] templating on this project.
+Where front-end templates are required, the standard choice should be 
+[Mustache.js][mustache-js].
 
 Mustache templates are "logic-less" - that is to say, they contain no specific
 logic relating to routing (eg. there is no if/else construct) and limited
