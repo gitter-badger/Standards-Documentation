@@ -21,7 +21,7 @@ will use.
 > Speed matters online. Study after study has shown that even 100 millisecond
 > delays in load times negatively impact user experience and conversions.
 
-Web performance is critical for Sainsbury's Homemade. Web pages should render as
+Web performance is critical for most projects. Web pages should render as
 quickly as possible in the browser. For context:
 
 > * The average Internet connection speed around the world was 2.3 Mbps by the
@@ -93,7 +93,7 @@ From the introduction to Google's
   [HTTP Archive][http-archive]. These tools allow straightforward comparisons
   with competing websites.
 
-**Every page on Sainsbury's Homemade MUST have a Page Speed score of at least 90.**
+**Every page on FullSIX builds SHOULD have a Page Speed score of at least 90.**
 
 [page-speed-chrome]:                    https://developers.google.com/speed/docs/insights/using_chrome
 [page-speed-firefox]:                   https://developers.google.com/speed/docs/insights/using_firefox
@@ -112,8 +112,7 @@ of rules MAY be implemented when developing templates where practical, as
 this allows more accurate testing. However, they should not be considered
 mandatory and templates SHOULD NOT be tested against the second set.
 
-Sainsbury's Homemade production and test environments MUST conform to both sets
-of rules.
+Production and test environments MUST conform to both sets of rules.
 
 Each rule in the following section is summarised to avoid duplication. Please
 refer to the linked documentation for a full description. Explanatory comments
@@ -123,7 +122,7 @@ during testing.
 
 ## HTML and HAML template development rules
 
-These best practices MUST be applied to both HTML and JSP template development.
+These best practices MUST be applied to both HTML and HAML template development.
 
 ### *[Avoid bad requests][rule-avoid-bad-requests]*
 
@@ -300,9 +299,9 @@ Page Speed tests.
 
 ### Server configuration rules
 
-These best practices concern the production environment.
+These best practices concern production environments.
 
-They MUST be used in the Sainsbury's Homemade production and test environments.
+They MUST be used in production and test environments.
 
 Where possible, they SHOULD be configured on test environments used to preview
 HTML templates.

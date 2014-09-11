@@ -2,7 +2,7 @@
 
 ## WCAG 2.0
 
-Sainsbury's Homemade SHALL be developed to meet [WCAG 2.0][wcag20] **Level AA**
+FullSIX UK projects SHALL be developed to meet [WCAG 2.0][wcag20] **Level AA**
 conformance.  WCAG has three levels of conformance (A, AA, and AAA), and Level
 AA is a reasonable and achievable compromise for many sites, especially those
 with rich and varied content.
@@ -207,8 +207,8 @@ as being subject to updates. There are three values for this attribute:
 
 ### Impact assessment
 
-While Sainsbury's Homemade is, broadly, a traditional web site rather than a web
-application, it does feature elements of functionality which SHOULD be marked up
+Traditional web site builds from FullSIX UK, although not usually web
+applications, it does feature elements of functionality which SHOULD be marked up
 according to the WAI-ARIA guidelines. The following are RECOMMENDED:
 
 * Roles can easily be added to applicable widgets and landmark elements.
@@ -249,7 +249,7 @@ Inline `image` tags MUST always have an `alt` attribute. The following examples
 are allowed.
 
     <img src="image.png" alt="" />
-    <img src="logo.png" alt="Sainsbury's Homemade" />
+    <img src="logo.png" alt="{{Client Name}}" />
 
 If the image in question is used purely for visual effect or if the information
 the image is conveying is present elsewhere within the same area of the page,
@@ -265,7 +265,7 @@ The `alt` attribute MUST NOT be omitted. The following example is not allowed.
 Where text is used in an `alt` attribute, the text used MUST be meaningful,
 relevant and helpful. The following examples show useful alternative text.
 
-    <img src="logo.png" alt="Sainsbury's Homemade" />
+    <img src="logo.png" alt="{{Client Name}}" />
     <img src="icon-zoom.png" alt="View larger image" />
 
 The following examples show `alt` text that is not useful.

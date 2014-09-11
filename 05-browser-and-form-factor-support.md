@@ -3,10 +3,10 @@
 
 ## Introduction
 
-This document outlines browser and form factor support for Sainsbury's Homemade.
+This document outlines default browser and form factor support for FullSIX UK.
 
-All code produced for Sainsbury's Homemade MUST abide by the support charts
-detailed below.
+All code produced for FullSIX UK MUST abide by the support charts detailed 
+below.
 
 Browser support requirements are expected to be updated on a quarterly basis.
 See the _Introduction_ for more detail on the update cycle.

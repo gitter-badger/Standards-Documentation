@@ -17,7 +17,7 @@ on a line by itself.
 
 There can also be empty-element tags, which do not "wrap around" content:
 
-    <img src="/images/logo.png" alt="Sainsbury's Homemade" />
+    <img src="/images/logo.png" alt="{{Client}} logo" />
 
 A graphical browser would render this as an image.
 
@@ -26,7 +26,7 @@ handled by CSS. HTML's basic abilities can be augmented with JavaScript.
 
 ## HTML5
 
-Sainsbury's Homemade SHALL be developed to the [HTML5 specification][html5].
+All Projects SHALL be developed to the [HTML5 specification][html5].
 While this specification is a draft or "living" specification, it has now seen
 broad industry adoption and is the new _de facto_ standard.
 
@@ -101,7 +101,7 @@ A few benefits of Polyglot Markup:
 ## HTML5 semantic elements
 
 We SHALL be using a subset of HTML5's new semantic elements for marking up
-Sainsbury's Homemade, specifically (descriptions from [HTML5 Doctor][h5doctor]):
+projects, specifically (descriptions from [HTML5 Doctor][h5doctor]):
 
 * `header`:
 
@@ -128,9 +128,6 @@ Sainsbury's Homemade, specifically (descriptions from [HTML5 Doctor][h5doctor]):
     > an independent part of a document, page, or site. This could be a forum
     > post, a magazine or newspaper article, a Web log entry, a user-submitted
     > comment, or any other independent item of content.
-
-    We recommend using `article` for individual product items within the shop on
-    Sainsbury's Homemade.
 
 * `footer`:
 

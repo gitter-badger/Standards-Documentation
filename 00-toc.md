@@ -2,10 +2,11 @@
 
 ## Authors
 
-### Full Six UK
+### FullSIX UK
 
 - Edward Minnett <edwardm@fullsixuk.com>
 - Andrew Dobson  <andrewd@fullsixuk.com>
+- Sam Carrington <samc@fullsixuk.com>
 
 ### External
 

@@ -7,8 +7,8 @@ web pages. CSS obeys the principle of "separation of concerns" - HTML is used to
 mark up content and CSS is used to control its presentation.
 
 CSS may be included inline using the `style` attribute, inside a `<style>` node,
-or separately in an external linked stylesheet. On Sainsbury's Homemade we will
-be using the external linked stylesheet method. To control more dynamic
+or separately in an external linked stylesheet. On projects we will normally
+usr the external linked stylesheet method. To control more dynamic
 elements, we will also use JavaScript to modify their styling, using jQuery's
 `addClass()` and `removeClass()` methods, and also `css()` where applicable.
 
@@ -17,7 +17,7 @@ elements, we will also use JavaScript to modify their styling, using jQuery's
 ### Formatting
 
 The policies outlined in _File formats and encodings_ MUST be applied to CSS for
-Sainsbury's Homemade.
+all projects for FullSIX UK.
 
 CSS SHALL be written in the more verbose multi-line format; prefer this:
 

@@ -5,7 +5,7 @@
 ### Introduction
 
 This document defines policies for usage and authoring of JavaScript for
-Sainsbury's Homemade.
+FullSIX UK projects.
 
 It is important to note that JavaScript should be used to _enhance the user's
 experience_ by adding engaging and interactive functionality. It is acceptable
@@ -337,7 +337,7 @@ JavaScript. For example:
 
 ## Modular JavaScript with Browserify
 
-[Browserify][browserify] will be used on this project to organise JavaScript
+[Browserify][browserify] will be used on projects to organise JavaScript
 into separate modules which can be loaded with `require` statements, in the
 style of Node.js, but in the browser.
 
@@ -345,7 +345,8 @@ style of Node.js, but in the browser.
 
 ## JavaScript templates with Mustache.js
 
-We will use [Mustache.js][mustache-js] templating on this project.
+Where front-end templates are required, the standard choice should be 
+[Mustache.js][mustache-js].
 
 Mustache templates are "logic-less" - that is to say, they contain no specific
 logic relating to routing (eg. there is no if/else construct) and limited
@@ -356,7 +357,7 @@ separation of concerns between views and logic.
 
 ## AJAX
 
-AJAX will be used on Sainsbury's Homemade for two purposes:
+AJAX will be used on normal builds for two purposes:
 
 1. User experience.
 2. To improve performance of the web journey by reducing load on the

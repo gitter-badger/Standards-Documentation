@@ -1,8 +1,8 @@
 # Development principles
 
 This section outlines a number of broad principles which underpin all
-development work for the front-end of Sainsbury's Homemade.  Everything
-discussed is realistic, achievable, and generally considered good practice.
+development work for FullSIX UK's clients.  Everything discussed is
+realistic, achievable, and generally considered good practice.
 
 ## Progressive enhancement and graceful degradation
 
