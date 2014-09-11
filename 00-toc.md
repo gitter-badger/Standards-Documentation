@@ -1,4 +1,4 @@
-# Sainsbury's Homemade standards
+# FullSIX UK Technical and coding standards
 
 ## Authors
 
@@ -27,6 +27,7 @@
 12. [Search engine optimisation][12]
 13. [Analytics][13]
 14. [Workflow][14]
+15. [Information Security][15]
 
 [1]: 01-introduction.md
 [2]: 02-document-control.md
@@ -42,3 +43,4 @@
 [12]: 12-search-engine-optimisation.md
 [13]: 13-analytics.md
 [14]: 14-workflow.md
+[15]: 15-infosec.md
