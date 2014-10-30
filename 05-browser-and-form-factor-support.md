@@ -32,14 +32,19 @@ A matrix is given below on current browser grading. If any exceptions are requir
 The cut-off for Core grade A support is 1% of total usage in any given quarter.
 Any browser falling below this threshold should be considered B grade.
 
+In Compatibility View, websites will be displayed as if you were viewing them in a previous version of Internet Explorer. Support of a particular version of IE does not extend to support for that version of the browser in "compatibility mode" or in "emulation" mode, but only in the standard mode for that browser. Versions 8, 9 & 10 of Internet Explorer offer compatibility mode, it was renamed "emulation" in version 11. 
+
 ### Desktop Browser Grade A
 
 | Platform | Name | Version |
 |----------|------|---------|
-|OS X, Vista, Win7, Win8 | Chrome | Latest*|
-|OS X, Vista, Win7, Win8 | Firefox | Latest*|
-|OSX | Safari | 7+|
-|Win7, Win8 | IE | 9+|
+|OSX 10.9, OSX 10.10, Win7, Win8 | Chrome | Latest*|
+|OSX 10.9, OSX 10.10, Win7, Win8 | Firefox | Latest*|
+|OSX 10.10 | Safari | 8|
+|OSX 10.9| Safari | 7|
+|Win8 | IE | 11+|
+|Win7 | IE | 10|
+|Vista | IE | 9|
 
 *Both Firefox and Chrome implement a rapid release cycle with background updating.  We therefore work to the current stable build.
 
@@ -47,15 +52,16 @@ Any browser falling below this threshold should be considered B grade.
 
 |Platform |  Name | Version |
 |---------|-------|---------|
-|WinXP| IE | 8|
+|Vista| IE | 8|
 
+*Both Firefox and Chrome implement a rapid release cycle with background updating. Where possible, we also work to the previous browser version on the previous OS version. 
 
 ### Desktop Browser Grade C
 
 |Platform |  Name | Version |
 |---------|-------|---------|
 |WinXP | IE | <8|
-|OS X, WinXP, Vista, Win7, Win8 | Opera | All versions|
+|OS X 10.9, OSX 10.10, WinXP, Vista, Win7, Win8 | Opera | All versions|
 
 Alternate platforms not covered above (e.g. games consoles, linux, non-browser based implementations of a web rendering engine)
 
@@ -75,10 +81,18 @@ FULLSIX only support grade A browsers on mobile. All others will not be included
 ### Mobile test devices
 
 FULLSIX test on the following devices:
-• iOS6, iOS7 (iPad 3, iPad Mini, iPhone 5)
-• Android 4.0.3, 4.2.1, 4.4.1 (Samsung Galaxy S4, Samsung Galaxy S2, Nexus 7)
++ iOS6, iOS7 (iPad 3, iPad Mini, iPhone 4, iPhone 5)
++ Android 4.0.4, 4.3 (Samsung Galaxy S4, Samsung Galaxy S3, Nexus 7)
 Additional devices can be targeted on request. Devices outside this configuration may incur extra charges. 
 
+The following devices are also avaliable for testing if requested by the client:
++ iOS5 (iPad 1, iPad 2, iPhone 3)
++ Android 4.0.3 (Samsung Galaxy tablet, Samsung Galaxy S2)
+
+FULLSIX do not currently test on the following devices:
++ iOS8 (iPad air, iPhone 6)
++ Android 4.4 (Nexus 6, Samsung Galaxy tab, Samsung galaxy S5)
+For future projects, testing should be completed on the devices and OS versions specified above. 
 
 ## Responsive design
 
