@@ -78,21 +78,16 @@ FULLSIX only support grade A browsers on mobile. All others will not be included
 
 *please note, as of Jellybean, Chrome is the default browser on Android devices and we will test this as our target Android platform.  Android browser is not supported directly as a result, however since all versions of the browser from 4.0 (Ice Cream Sandwich) onward are built on the same version of Webkit, we don’t anticipate there being much variance in the rendering of pages.  We don’t, however, test thoroughly on ICS since the platform is in steep decline.  
 
-### Mobile test devices
+### Mobile and tablet test devices
 
 FULLSIX test on the following devices:
-+ iOS6, iOS7 (iPad 3, iPad Mini, iPhone 4, iPhone 5)
-+ Android 4.0.4, 4.3 (Samsung Galaxy S4, Samsung Galaxy S3, Nexus 7)
++ iOS7, iOS8 (iPad Mini, iPad air, iPhone 5, iPhone 6) 
++ Android 4.3, 4.4 (Samsung Galaxy S4, Nexus 5, Samsung Galaxy tablet, Nexus 7)
 Additional devices can be targeted on request. Devices outside this configuration may incur extra charges. 
 
 The following devices are also avaliable for testing if requested by the client:
-+ iOS5 (iPad 1, iPad 2, iPhone 3)
-+ Android 4.0.3 (Samsung Galaxy tablet, Samsung Galaxy S2)
-
-FULLSIX do not currently test on the following devices:
-+ iOS8 (iPad air, iPhone 6)
-+ Android 4.4 (Nexus 6, Samsung Galaxy tab, Samsung galaxy S5)
-For future projects, testing should be completed on the devices and OS versions specified above. 
++ iOS5, iOS6 (iPad 1, iPad 2, iPad 3, iPhone 3, iPhone 4) 
++ Android 4.0.3, 4.0.4 (Samsung Galaxy tablet, Samsung Galaxy S2, Samsung Galaxy S3, Samsung Galaxy S4)
 
 ## Responsive design
 
