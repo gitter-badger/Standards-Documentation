@@ -82,7 +82,7 @@ FULLSIX only support grade A browsers on mobile. All others will not be included
 
 FULLSIX test on the following devices:
 + iOS7, iOS8 (iPad Mini, iPad air, iPhone 5, iPhone 6) 
-+ Android 4.3, 4.4 (Samsung Galaxy S4, Nexus 5, Samsung Galaxy tablet, Nexus 7)
++ Android 4.3, 4.4 (Samsung Galaxy S5, Nexus 5, Samsung Galaxy tablet, Nexus 7)
 Additional devices can be targeted on request. Devices outside this configuration may incur extra charges. 
 
 The following devices are also avaliable for testing if requested by the client:
