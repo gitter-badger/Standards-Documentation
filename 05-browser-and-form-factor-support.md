@@ -72,9 +72,9 @@ FULLSIX only support grade A browsers on mobile. All others will not be included
 
 |Platform |  Name | Version |
 |---------|-------|---------|
-|iOS6+| Mobile Safari| 6+|
-|IOS6+ | Chrome | Current vers only|
-|Android 4.1+ | Chrome* | Current vers only|
+|iOS7+| Mobile Safari| 7+|
+|IOS7+ | Chrome | Current vers only|
+|Android 4.3+ | Chrome* | Current vers only|
 
 *please note, as of Jellybean, Chrome is the default browser on Android devices and we will test this as our target Android platform.  Android browser is not supported directly as a result, however since all versions of the browser from 4.0 (Ice Cream Sandwich) onward are built on the same version of Webkit, we don’t anticipate there being much variance in the rendering of pages.  We don’t, however, test thoroughly on ICS since the platform is in steep decline.  
 
