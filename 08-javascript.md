@@ -24,7 +24,7 @@ unnecessary JavaScript:
 
 ### Standard libraries
 
-The following libraries MUST be used:
+The following libraries SHOULD be used:
 
 1. *jQuery*
 
@@ -77,8 +77,8 @@ The following libraries MUST be used:
 
 ### Third-party plugins/modules
 
-Third-party plugins and modules, especially for jQuery, MUST not be used.
-Instead, developers SHALL build suitable custom functionality according to our
+Third-party plugins and modules, especially for jQuery, SHOULD be avoided where feasible.
+Instead, developers SHOULD build suitable custom functionality according to our
 JavaScript and web development standards. In many cases, functionality such as a
 lightbox or carousel can be achieved with relatively minimal effort; for more
 complex modules, a 100% custom approach is inherently more desirable.
@@ -94,6 +94,16 @@ advantages including:
 * Complete customisation of JavaScript being developed deployed to ensure that
   it is wholly relevant to the project.
 
+However pragmatism should be used - if a project's requirements match the functionality
+offered by a third party project, and it gives a suitable API for customisation, it can
+offer significant advantages over a dogmatic [Not Invented Here][nih] approach.
+
+Open source projects can be forked if necessary and if improvements can be made to
+an existing codebase, pull requests to the main repository can ensure that FullSIX take
+an active part in the open source community, to the advancement of all.
+
+[nih]: https://www.wikiwand.com/en/Not_invented_here
+
 ### Upgrade policy
 
 Consideration should be given to how and when to upgrade third-party libraries
@@ -108,6 +118,11 @@ functionality. If the time and cost of using the upgraded version outweighs the
 benefits it brings, it is worth waiting until a subsequent upgrade which offers
 genuine benefits.
 
+[Semantic versioning][semver] principles mean that libraries which use this standard can
+usually be safely upgraded in patch or minor update version ticks.
+
+[semver]: http://semver.org/
+
 ## Coding standards (style guide)
 
 These standards provide a guide to writing JavaScript that can be read,
@@ -117,14 +132,15 @@ understood, and maintained within a team environment.
 
 #### Whitespace and semicolons
 
-In common with the file formats and encodings conventions, indent with four
-spaces. Tabs MUST NOT be used. Lines SHOULD be kept to a reasonable length;
-< 100 characters is preferable.
+In common with the file formats and encodings conventions, indent with two spaces.
+Tabs MUST NOT be used. Lines SHOULD be kept to a reasonable length;
+< 100 characters is preferable. An editorConfig file should be included in a project
+to define the acceptable formatting rule for other developers.
 
 While ending a statement with a semicolon in JavaScript is in some cases
 optional, the rules around this (generally called "Automatic Semicolon
 Insertion", or ASI) are surprisingly complicated. For this reason, semicolons
-must be used in all traditional places to terminate lines.
+MUST be used in all traditional places to terminate lines.
 
 #### Naming
 
